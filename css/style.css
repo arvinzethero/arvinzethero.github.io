@@ -1,0 +1,34 @@
+/* body {
+  height: 1500px;
+} */
+
+.jumbotron {
+  background-color: rgb(255, 255, 255);
+}
+
+.kotak {
+  width: 48px;
+  background-color: #93ff79;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.kotak ul {
+  list-style-type: none;
+  margin-left: -22px;
+  margin-top: -10px;
+}
+
+.kotak a {
+  color: white;
+}
+
+.card {
+  box-shadow: 0px 30px 10px -20px rgb(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+.card:hover {
+  /* transform: scale(1); */
+  box-shadow: 0px 80px 10px -40px rgb(0, 0, 0, 0.2);
+}
